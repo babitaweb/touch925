@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ .title{
+    background-color: #b9e0e7;
+    height: 50px;
+    text-align: center;
+    line-height: 3;
+
+ }
+ header{
+   padding: 0 4%;
+   height: 80px;
+   width: 100%;
+   display: flex;
+  
+ }
+ .logo img{
+width: 70%;
+height: 80px;
+ }
+ header nav{
+   width: 70%;
+    height: inherit;
+}
+ 
+ header nav ul{
+   display: flex;
+   align-items: center;
+   height: inherit;
+ }
+ header nav ul li{
+text-align: center;
+padding-left: 30px;
+list-style: none;
+
+ }
+ header nav ul li a{
+   text-decoration: none;
+   color: black;
+ }
+
+
+.icon i{
+   margin: 5px;
+   line-height: 4;
+  
+}
+#banner .banner-container{
+  width: 100%;
+  height: 400px;
+}
+#banner .banner-container img{
+  width:100%;
+}
+
+#intro .parent-container{
+  width: 100%;
+  height: 200px;
+
+}
+#intro .parent-container h4{
+  text-align: center;
+  font-size: 30px;
+  padding:20px;
+
+}
+#intro .parent-container p{
+width: 50%;
+margin: auto;
+
+ 
+}
+#Products  img{
+  /* width: 24%;
+  height: 400px; */
+  
+  width: 23.296vw;
+  height: 22.292vw;
+ 
+
+
+  
+}
+#Products .menu{
+  display: flex;
+  margin: 10px;
+ 
+}
+#Products .menu .para1{
+  box-shadow: 4px 4px 5px grey;
+  margin: 8px;
+  border-radius: 5px;
+
+ 
+}
+.para1 h4{
+  text-align: center;
+  padding: 10px;
+}
+
+.button2{
+  text-align: center;
+    margin: 30px;
+    margin-top: 20px;
+}
+  
+.button2 a{
+  color: black;
+  padding: 8px 50px;
+  background-color: lightblue;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px
+  
+}
+.button2 a:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.para1 i{
+ background-color: #b9e0e7;
+  border-radius: 10px;
+}
+
+.para2{
+position: relative;
+left: 35%;
+
+
+}
+#Products .menu .para1:hover{
+  background-color: #b9e0e7;
+  
+}
+#review .parent-container-review h2{
+  font-size: 28px;
+
+
+}
+#review .parent-container-review{
+  padding: 23px;
+}
+#review .parent-container-review ol li{
+font-size: 25px;
+
+}
+.icon1 i{
+  position:fixed;
+  right: 30px;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid green;
+  border-radius: 20px;
+  background-color: green;
+  color: white;
+}
+#hallmark .parent-container-hallmark{
+  width: 100%;
+  height: 400px;
+  background-color: #b9e0e7;
+ 
+}
+#hallmark .child-container-hallmark{
+  display: flex;
+
+}
+#hallmark .parent-container-icon{
+  margin: 30px;
+  padding: 30px;
+}
+#hallmark .parent-container-icon h4{
+font-size: 20px;
+
+}
+#hallmark .parent-container-icon address{
+ 
+ padding:10px 40px 10px 0px;
+}
+#hallmark .parent-container-icon i{
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid  lightblue;
+  border-radius: 20px;
+}
+.parent-container-jewellery h4{
+  font-size: 20px;
+
+}
+#hallmark .parent-container-jewellery ul li{
+list-style:none;
+padding: 7px;
+}
+#hallmark .parent-container-jewellery1 ul li a{
+  text-decoration: none;
+  color: black;
+}
+.parent-container-jewellery1 h4{
+  font-size: 20px;
+  padding-top: 40px;
+
+
+}
+#hallmark .parent-container-jewellery1 ul li{
+list-style:none;
+padding: 7px;
+}
+#hallmark .parent-container-jewellery1 ul li a{
+  text-decoration: none;
+  color: black;
+}
+.parent-container-jewellery h4{
+  font-size: 20px;
+  padding-right:30px;
+  padding-top: 40px;
+
+}
+#hallmark .parent-container-jewellery ul li{
+list-style:none;
+padding: 10px;
+}
+#hallmark .parent-container-jewellery ul li a{
+  text-decoration: none;
+  color: black;
+}
